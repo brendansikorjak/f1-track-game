@@ -1,7 +1,109 @@
+body {
+  background-color: dodgerblue;
+}
+
 .f1 {
   color: red;
 }
 
-body {
-  background-color: dodgerblue;
+.racetrack {
+  /* background-image: url(../assets/austrianGP.png); */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 875px;
+  min-height: 575px;
+}
+
+.racecar {
+  /* width: 50px;
+  height: 50px; */
+  /* background-color: white; */
+  /* transform: scaleX(-1); */
+  position: relative;
+  animation-name: race;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  /* animation-fill-mode: forwards; */
+}
+
+@keyframes race {
+  0% {
+    left: 100px;
+    top: 460px;
+  }
+  /* 5% {
+    left: 20px;
+    top: 480px;
+  } */
+  10% {
+    /* TURN 1 */
+    left: -55px;
+    top: 500px;
+  }
+  /* 15% {
+    left: -300px;
+    top: 150px;
+  } */
+  20% {
+    /* TURN 2 */
+    left: -425px;
+    top: -20px;
+  }
+  /* 35% {
+    left: -280px;
+    top: -20px;
+  } */
+  /* 45% {
+    left: 0px;
+    top: 10px;
+  } */
+  30% {
+    /* TURN 3 */
+    left: 125px;
+    top: 15px;
+  }
+  40% {
+    /* TURN 4 */
+    left: 50px;
+    top: 125px;
+  }
+  50% {
+    /* TURN 5 */
+    left: -180px;
+    top: 100px;
+  }
+  /* 50% {
+    left: -175px;
+    top: 145px;
+  } */
+  60% {
+    /* TURN 6 */
+    left: -130px;
+    top: 300px;
+  }
+  /* 60% {
+    left: -60px;
+    top: 300px;
+  } */
+  70% {
+    /* TURN 7 */
+    left: -10px;
+    top: 230px;
+  }
+  80% {
+    /* TURN 8 */
+    left: 370px;
+    top: 210px;
+  }
+  90% {
+    /* TURN 9 */
+    left: 420px;
+    top: 370px;
+  }
+  100% {
+    /* FINISH */
+    left: 100px;
+    top: 460px;
+  }
 }
