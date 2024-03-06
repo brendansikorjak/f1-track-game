@@ -4,6 +4,11 @@ body {
 
 .f1 {
   color: red;
+  background-color: dodgerblue;
+  padding: 0;
+  font-weight: bold;
+  cursor: default;
+  border: none;
 }
 
 /* ----------------------------------------------
@@ -21,6 +26,7 @@ body {
 
 .slide-out-blurred-left {
   position: absolute;
+  right: 140px;
   animation: slide-out-blurred-left 0.7s 2s;
 }
 
